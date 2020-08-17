@@ -34,7 +34,7 @@ def main():
           today = date.today()
           age=today - birthdate
           agedays=age.days
-          yourage=int(agedays/356)
+          yourage=int(agedays/365)
           print("You are %d years old."%(yourage))  
    check_birthdate(year,month,day)   
 
